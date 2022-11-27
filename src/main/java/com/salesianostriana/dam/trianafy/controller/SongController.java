@@ -63,6 +63,7 @@ public class SongController {
                     old.setYear(song.getYear());
                     old.setTitle(song.getTitle());
                     old.setAlbum(song.getAlbum());
+                    old.setArtist(artist);
                     return Optional.of(repository.save(old));
                 })
                 .orElse(Optional.empty())

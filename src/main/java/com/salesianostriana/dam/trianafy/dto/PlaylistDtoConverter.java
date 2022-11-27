@@ -16,7 +16,9 @@ public class PlaylistDtoConverter {
     public GetPlaylistDto playlistToGetPlaylistDto(Playlist p){
         return GetPlaylistDto
                 .builder()
+                .id(p.getId())
                 .name(p.getName())
+                .numberSongs(p.getSongs().size())
                 .build();
     }
 }

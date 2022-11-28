@@ -6,9 +6,9 @@ El objetivo de este proyecto consiste en hacer una serie de peticiones de tipo *
 
 Para ello se necesita crear los modelos necesarios que son ***Playlist*** , ***Song*** y ***Artist***, los repositorios de las clases modelo, los controladores en lo que se van a hacer las peticiones y los ***DTO*** de algunos de los controladores. 
 
-Para poder realizar las peticiones se necesita el uso de ***POSTMAN*** en la que se puede importar la colección que esta en el repositorio. Se puede visualizar la documentación en Swagger con el proyecto inicializado.
+Para poder realizar las peticiones se necesita el uso de ***POSTMAN*** en la que se puede importar la colección que esta en el repositorio. Se puede visualizar la documentación en ***Swagger*** con el proyecto inicializado.
 
-La URL es : http://localhost:8080/swagger-ui.html
+La URL de Swagger es : http://localhost:8080/swagger-ui.html
 
 ## Funciones
 

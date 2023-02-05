@@ -40,4 +40,8 @@ public class SongService {
         repository.deleteById(id);
     }
 
+    public boolean checkSongAndArtist(String songName, Long artistId){
+        return repository.existsByTitleAndArtistId(songName, artistId);
+    }
+
 }
